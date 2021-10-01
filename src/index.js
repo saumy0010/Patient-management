@@ -7,6 +7,9 @@ import FormData from './Form/Patient-form.js';
 import Doctor from './Doctor/Doc-profile.js';
 import Login from './Login/login.js';
 import AddMed from './InputForm/prescription';
+import Lab from './InputForm/lab';
+import Diagnosis from './InputForm/diagnosis';
+
 
 
 function App() {
@@ -28,6 +31,12 @@ function App() {
           </Route>
           <Route path="/prescription">
             <AddMed />
+          </Route>
+          <Route path="/lab">
+            <Lab />
+          </Route>
+          <Route path="/diagnosis">
+            <Diagnosis />
           </Route>
         </Switch>
       </Router>
